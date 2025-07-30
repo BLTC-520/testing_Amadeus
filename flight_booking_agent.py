@@ -33,9 +33,9 @@ class FlightBookingAgent:
     
     def __init__(self):
         # hardcoded credentials for dev (I didn't set up .env for ease of testing)
-        self.amadeus_client_id = 'YOUR_CLIENT_ID'  # Replace with your Amadeus client ID
-        self.amadeus_client_secret = 'YOUR_CLIENT_SECRET'  # Replace with your Amadeus client secret
-        self.openai_api_key = 'YOUR_KEY_HERE'  # Replace with your OpenAI API key
+        self.amadeus_client_id = ''  # Replace with your Amadeus client ID
+        self.amadeus_client_secret = ''  # Replace with your Amadeus client secret
+        self.openai_api_key = ''  # Replace with your OpenAI API key
         
         # API clients
         self.amadeus_client = None
