@@ -1,0 +1,516 @@
+{
+  "search_timestamp": "2025-07-30T20:09:06.257809",
+  "search_parameters": {
+    "origin": "BKK",
+    "destination": "SIN",
+    "departure_date": "2025-07-30",
+    "return_date": null,
+    "adults": 1,
+    "children": null,
+    "infants": null,
+    "budget": 800,
+    "currency": null,
+    "non_stop": true,
+    "preferred_airlines": null,
+    "avoided_airlines": null
+  },
+  "total_flights_found": 3,
+  "flight_analysis": [
+    {
+      "rank": 1,
+      "airline_code": "TG",
+      "price": 174.96,
+      "currency": null,
+      "departure_time": "2025-07-30T19:15:00",
+      "arrival_time": "2025-07-30T22:30:00",
+      "duration": "PT2H15M",
+      "stops": 0,
+      "recommendation": "Direct flight • Great value",
+      "raw_flight_data": {
+        "type": "flight-offer",
+        "id": "1",
+        "source": "GDS",
+        "instantTicketingRequired": false,
+        "nonHomogeneous": false,
+        "oneWay": false,
+        "isUpsellOffer": false,
+        "lastTicketingDate": "2025-07-30",
+        "lastTicketingDateTime": "2025-07-30",
+        "numberOfBookableSeats": 9,
+        "itineraries": [
+          {
+            "duration": "PT2H15M",
+            "segments": [
+              {
+                "departure": {
+                  "iataCode": "BKK",
+                  "at": "2025-07-30T19:15:00"
+                },
+                "arrival": {
+                  "iataCode": "SIN",
+                  "terminal": "2",
+                  "at": "2025-07-30T22:30:00"
+                },
+                "carrierCode": "TG",
+                "number": "401",
+                "aircraft": {
+                  "code": "788"
+                },
+                "operating": {
+                  "carrierCode": "TG"
+                },
+                "duration": "PT2H15M",
+                "id": "1",
+                "numberOfStops": 0,
+                "blacklistedInEU": false
+              }
+            ]
+          }
+        ],
+        "price": {
+          "currency": "EUR",
+          "total": "174.96",
+          "base": "111.00",
+          "fees": [
+            {
+              "amount": "0.00",
+              "type": "SUPPLIER"
+            },
+            {
+              "amount": "0.00",
+              "type": "TICKETING"
+            }
+          ],
+          "grandTotal": "174.96"
+        },
+        "pricingOptions": {
+          "fareType": [
+            "PUBLISHED"
+          ],
+          "includedCheckedBagsOnly": true
+        },
+        "validatingAirlineCodes": [
+          "TG"
+        ],
+        "travelerPricings": [
+          {
+            "travelerId": "1",
+            "fareOption": "STANDARD",
+            "travelerType": "ADULT",
+            "price": {
+              "currency": "EUR",
+              "total": "174.96",
+              "base": "111.00"
+            },
+            "fareDetailsBySegment": [
+              {
+                "segmentId": "1",
+                "cabin": "ECONOMY",
+                "fareBasis": "VLOST",
+                "brandedFare": "ECOST",
+                "brandedFareLabel": "ECOSTANDARD",
+                "class": "V",
+                "includedCheckedBags": {
+                  "weight": 23,
+                  "weightUnit": "KG"
+                },
+                "includedCabinBags": {
+                  "weight": 7,
+                  "weightUnit": "KG"
+                },
+                "amenities": [
+                  {
+                    "description": "EXTRA BAGGAGE PER ONE KILOGRAM",
+                    "isChargeable": true,
+                    "amenityType": "BAGGAGE",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "PRE RESERVED SEAT ASSIGNMENT",
+                    "isChargeable": true,
+                    "amenityType": "PRE_RESERVED_SEAT",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "HOT MEAL",
+                    "isChargeable": false,
+                    "amenityType": "MEAL",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "NAME CORRECTION",
+                    "isChargeable": true,
+                    "amenityType": "TRAVEL_SERVICES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "BASIC SEAT",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "REFUND",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "CHANGEABLE TICKET",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "airline_code": "SQ",
+      "price": 659.6,
+      "currency": null,
+      "departure_time": "2025-07-30T21:15:00",
+      "arrival_time": "2025-07-31T00:35:00",
+      "duration": "PT2H20M",
+      "stops": 0,
+      "recommendation": "Direct flight • Within budget",
+      "raw_flight_data": {
+        "type": "flight-offer",
+        "id": "2",
+        "source": "GDS",
+        "instantTicketingRequired": false,
+        "nonHomogeneous": false,
+        "oneWay": false,
+        "isUpsellOffer": false,
+        "lastTicketingDate": "2025-07-30",
+        "lastTicketingDateTime": "2025-07-30",
+        "numberOfBookableSeats": 9,
+        "itineraries": [
+          {
+            "duration": "PT2H20M",
+            "segments": [
+              {
+                "departure": {
+                  "iataCode": "BKK",
+                  "at": "2025-07-30T21:15:00"
+                },
+                "arrival": {
+                  "iataCode": "SIN",
+                  "terminal": "0",
+                  "at": "2025-07-31T00:35:00"
+                },
+                "carrierCode": "SQ",
+                "number": "719",
+                "aircraft": {
+                  "code": "787"
+                },
+                "operating": {
+                  "carrierCode": "SQ"
+                },
+                "duration": "PT2H20M",
+                "id": "2",
+                "numberOfStops": 0,
+                "blacklistedInEU": false
+              }
+            ]
+          }
+        ],
+        "price": {
+          "currency": "EUR",
+          "total": "659.60",
+          "base": "622.00",
+          "fees": [
+            {
+              "amount": "0.00",
+              "type": "SUPPLIER"
+            },
+            {
+              "amount": "0.00",
+              "type": "TICKETING"
+            }
+          ],
+          "grandTotal": "659.60"
+        },
+        "pricingOptions": {
+          "fareType": [
+            "PUBLISHED"
+          ],
+          "includedCheckedBagsOnly": true
+        },
+        "validatingAirlineCodes": [
+          "SQ"
+        ],
+        "travelerPricings": [
+          {
+            "travelerId": "1",
+            "fareOption": "STANDARD",
+            "travelerType": "ADULT",
+            "price": {
+              "currency": "EUR",
+              "total": "659.60",
+              "base": "622.00"
+            },
+            "fareDetailsBySegment": [
+              {
+                "segmentId": "2",
+                "cabin": "ECONOMY",
+                "fareBasis": "YIFSQ",
+                "brandedFare": "YCLFLEXI",
+                "brandedFareLabel": "ECONOMY FLEXI",
+                "class": "Y",
+                "includedCheckedBags": {
+                  "weight": 30,
+                  "weightUnit": "KG"
+                },
+                "includedCabinBags": {
+                  "quantity": 1
+                },
+                "amenities": [
+                  {
+                    "description": "NO SHOW",
+                    "isChargeable": true,
+                    "amenityType": "TRAVEL_SERVICES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "SEAT SELECTION STANDARD ZONE",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "CANCELLATION",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "BOOKING CHANGE",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "SEAT SELECTION FORWARD ZONE",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "100 PERCENT KF MILES EARNED",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "UPGRADE WITH MILES PWM",
+                    "isChargeable": true,
+                    "amenityType": "UPGRADES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "airline_code": "SQ",
+      "price": 659.6,
+      "currency": null,
+      "departure_time": "2025-07-30T20:10:00",
+      "arrival_time": "2025-07-30T23:35:00",
+      "duration": "PT2H25M",
+      "stops": 0,
+      "recommendation": "Direct flight • Within budget",
+      "raw_flight_data": {
+        "type": "flight-offer",
+        "id": "3",
+        "source": "GDS",
+        "instantTicketingRequired": false,
+        "nonHomogeneous": false,
+        "oneWay": false,
+        "isUpsellOffer": false,
+        "lastTicketingDate": "2025-07-30",
+        "lastTicketingDateTime": "2025-07-30",
+        "numberOfBookableSeats": 9,
+        "itineraries": [
+          {
+            "duration": "PT2H25M",
+            "segments": [
+              {
+                "departure": {
+                  "iataCode": "BKK",
+                  "at": "2025-07-30T20:10:00"
+                },
+                "arrival": {
+                  "iataCode": "SIN",
+                  "terminal": "0",
+                  "at": "2025-07-30T23:35:00"
+                },
+                "carrierCode": "SQ",
+                "number": "713",
+                "aircraft": {
+                  "code": "787"
+                },
+                "operating": {
+                  "carrierCode": "SQ"
+                },
+                "duration": "PT2H25M",
+                "id": "3",
+                "numberOfStops": 0,
+                "blacklistedInEU": false
+              }
+            ]
+          }
+        ],
+        "price": {
+          "currency": "EUR",
+          "total": "659.60",
+          "base": "622.00",
+          "fees": [
+            {
+              "amount": "0.00",
+              "type": "SUPPLIER"
+            },
+            {
+              "amount": "0.00",
+              "type": "TICKETING"
+            }
+          ],
+          "grandTotal": "659.60"
+        },
+        "pricingOptions": {
+          "fareType": [
+            "PUBLISHED"
+          ],
+          "includedCheckedBagsOnly": true
+        },
+        "validatingAirlineCodes": [
+          "SQ"
+        ],
+        "travelerPricings": [
+          {
+            "travelerId": "1",
+            "fareOption": "STANDARD",
+            "travelerType": "ADULT",
+            "price": {
+              "currency": "EUR",
+              "total": "659.60",
+              "base": "622.00"
+            },
+            "fareDetailsBySegment": [
+              {
+                "segmentId": "3",
+                "cabin": "ECONOMY",
+                "fareBasis": "YIFSQ",
+                "brandedFare": "YCLFLEXI",
+                "brandedFareLabel": "ECONOMY FLEXI",
+                "class": "Y",
+                "includedCheckedBags": {
+                  "weight": 30,
+                  "weightUnit": "KG"
+                },
+                "includedCabinBags": {
+                  "quantity": 1
+                },
+                "amenities": [
+                  {
+                    "description": "NO SHOW",
+                    "isChargeable": true,
+                    "amenityType": "TRAVEL_SERVICES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "SEAT SELECTION STANDARD ZONE",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "CANCELLATION",
+                    "isChargeable": true,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "BOOKING CHANGE",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "SEAT SELECTION FORWARD ZONE",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "100 PERCENT KF MILES EARNED",
+                    "isChargeable": false,
+                    "amenityType": "BRANDED_FARES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  },
+                  {
+                    "description": "UPGRADE WITH MILES PWM",
+                    "isChargeable": true,
+                    "amenityType": "UPGRADES",
+                    "amenityProvider": {
+                      "name": "BrandedFare"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
